@@ -1,0 +1,33 @@
+{
+Lin(cp1)
+PTP(ap1)
+Circ(ap1,cp1)
+PTPRel(ap1)
+LinRel(cp1,dyn1)
+IF intgr1 > 3 THEN
+MoveRobotAxis(A1,15.5)
+ELSEIF a > 5 THEN
+Circ(ap1,cp1)
+END_IF
+LOOP 3 DO
+LinRel(ap1,dyn1)
+END_LOOP
+Ramp(T)
+Dyn(dyn1)
+WHILE a > 1 DO
+PTPRel(ap1)
+a=1
+END_WHILE
+WAIT a > 0
+Tool(t1)
+PTP(cp1)
+WaitTime(5)
+RUN program2()
+Notice("love")
+Stop(HARDSTOP)
+RefRobotAxisAsync(dyn1)
+RefRobotAxis(A2,15.5,dyn1)
+KILL program2()
+StopRobot(HARDSTOP)
+CALL program2()
+}

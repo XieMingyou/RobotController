@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!--This is Robot_Variable Information-->
+<config_information>
+    <变量节点 Name="ap1" Type="AXISPOS" Range="project1">
+        <value Parameter="a1:REAL">1</value>
+        <value Parameter="a2:REAL">0</value>
+        <value Parameter="a3:REAL">0</value>
+        <value Parameter="a4:REAL">0</value>
+        <value Parameter="a5:REAL">0</value>
+        <value Parameter="a6:REAL">0</value>
+    </变量节点>
+    <变量节点 Name="cp1" Type="CARTPOS" Range="project1">
+        <value Parameter="x:REAL">11</value>
+        <value Parameter="y:REAL">0</value>
+        <value Parameter="z:REAL">0</value>
+        <value Parameter="a:REAL">0</value>
+        <value Parameter="b:REAL">0</value>
+        <value Parameter="c:REAL">0</value>
+        <value Parameter="mode:DINT">0</value>
+    </变量节点>
+    <变量节点 Name="dyn1" Type="DYNAMIC" Range="project1">
+        <value Parameter="velAxis:PERCENT">10</value>
+        <value Parameter="accAxis:PERCENT">0</value>
+        <value Parameter="decAxis:PERCENT">0</value>
+        <value Parameter="jerk:PERCENT">0</value>
+        <value Parameter="velPath:REAL">0</value>
+        <value Parameter="accPath:REAL">0</value>
+        <value Parameter="decPath:REAL">0</value>
+        <value Parameter="jerkPath:REAL">0</value>
+        <value Parameter="velOri:REAL">0</value>
+        <value Parameter="accOri:REAL">0</value>
+        <value Parameter="decOri:REAL">0</value>
+        <value Parameter="jerkOri:REAL">0</value>
+    </变量节点>
+    <变量节点 Name="intgr1" Type="INTEGER" Range="project1">
+        <value Parameter="整数数值">5</value>
+    </变量节点>
+    <变量节点 Name="flt1" Type="FLOAT" Range="project1">
+        <value Parameter="浮点数数值">15.5</value>
+    </变量节点>
+    <变量节点 Name="t1" Type="TOOL" Range="project1">
+        <value Parameter="x">1</value>
+        <value Parameter="y">0</value>
+        <value Parameter="z">0</value>
+        <value Parameter="a">0</value>
+        <value Parameter="b">0</value>
+        <value Parameter="c">0</value>
+    </变量节点>
+    <变量节点 Name="ap2" Type="AXISPOS" Range="project1">
+        <value Parameter="a1:REAL">0</value>
+        <value Parameter="a2:REAL">0</value>
+        <value Parameter="a3:REAL">0</value>
+        <value Parameter="a4:REAL">0</value>
+        <value Parameter="a5:REAL">0</value>
+        <value Parameter="a6:REAL">0</value>
+    </变量节点>
+    <变量节点 Name="a" Type="INTEGER" Range="project1">
+        <value Parameter="整数数值">10</value>
+    </变量节点>
+    <变量节点 Name="str1" Type="STRING" Range="project1">
+        <value Parameter="字符串">&quot;love&quot;</value>
+    </变量节点>
+</config_information>

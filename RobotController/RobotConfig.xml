@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!--机器人配置文件-->
+<Config>
+    <COPEK>
+        <!--机器人基本信息-->
+        <BaseInfo robotType="General Robot(six axis)" baseNum="3" wristNum="3" available="true" />
+        <!--机器人D-H参数-->
+        <DH>
+            <alpha axis1="0" axis2="90" axis3="0" axis4="-90" axis5="90" axis6="-90" />
+            <a axis1="0" axis2="0" axis3="355" axis4="0" axis5="0" axis6="0" />
+            <d axis1="360" axis2="0" axis3="0" axis4="375" axis5="0" axis6="78" />
+            <offset1 axis1="0" axis2="90" axis3="-90" axis4="0" axis5="0" axis6="0" />
+        </DH>
+        <!--机器人各轴伺服参数-->
+        <Servo>
+            <maxPos axis1="180" axis2="135" axis3="155" axis4="200" axis5="125" axis6="360" />
+            <minPos axis1="-180" axis2="-135" axis3="-155" axis4="-200" axis5="-125" axis6="-360" />
+            <maxVel axis1="410" axis2="330" axis3="460" axis4="720" axis5="560" axis6="900" />
+            <maxAcc axis1="1000" axis2="800" axis3="1300" axis4="1800" axis5="1650" axis6="2700" />
+            <maxDec axis1="-1000" axis2="-800" axis3="-1300" axis4="-1800" axis5="-1650" axis6="-2700" />
+            <maxJerk axis1="100000" axis2="100000" axis3="100000" axis4="100000" axis5="100000" axis6="100000" />
+            <offset2 axis1="0" axis2="0" axis3="0" axis4="0" axis5="0" axis6="0" />
+            <direction axis1="1" axis2="1" axis3="-1" axis4="1" axis5="-1" axis6="1" />
+            <ratio axis1="80.008" axis2="99.902" axis3="78.433" axis4="50.001" axis5="64.001" axis6="40.000" />
+            <encoder axis1="131072" axis2="131072" axis3="131072" axis4="131072" axis5="131072" axis6="131072" />
+            <coupling axis4ToAxis5="0" axis4ToAxis6="0" axis5ToAxis6="0.01248916" />
+        </Servo>
+        <!--机器人运动参数-->
+        <Motion>
+            <dynamic velAxis="100" accAxis="100" jerkAxis="100" velPath="2700" accPath="10000" jerkPath="100000" velOri="360" accOri="720" jerkOri="10000" />
+            <jogSpeed velAxis="50" accAxis="50" jerkAxis="50" velPath="250" accPath="500" jerkPath="1000" velOri="90" accOri="180" jerkOri="360" />
+        </Motion>
+        <!--基坐标系和工具坐标系-->
+        <Coordinate>
+            <base x="0" y="0" z="0" a="0" b="0" c="0" />
+            <tool x="0" y="0" z="0" a="0" b="0" c="0" />
+        </Coordinate>
+    </COPEK>
+</Config>

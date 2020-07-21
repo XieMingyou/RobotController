@@ -1,0 +1,111 @@
+syntax = "proto3";
+
+/*
+//示教器发送给控制器的数据
+int emergeStop = 0; //机器人是否急停，0：未急停，1：急停
+int enableState = 0; //机器人使能状态，0：未使能，1：使能
+int operateMode = 0; //机器人操作模式，0：手动，1：自动
+int activeState = 0; //程序的激活状态，0：未激活，1：激活
+int runState = 0; //程序的运行状态，0：暂停，1：运行中
+int step = 0; //程序的执行方式，0：连续，1：单步
+int jog = 0; //手动示教时所选坐标系，0：轴关节坐标系，1：世界坐标系，2：工具手坐标系
+int coordinate = 0; //手动示教时选中的坐标，0：未示教，1-6：第x个坐标
+int upOrDown = 0; //手动示教时对选中坐标的增大或减小，0：减小，1：增大
+int ovr = 20; //机器人的动态倍率参数
+int progLine = 0; //程序执行到的行数
+int transferZip = 0; //是否传输文件压缩包，0：不传输，1：传输
+int zipSize = 0; //压缩包大小
+string projName = ""; //主程序所在项目的名称
+string varProgName = ""; //主程序名称
+
+//控制器发送给示教器的数据
+AXISPOS axisPos = { 0 }; //机器人在轴关节坐标系下的位置坐标
+CARTPOS cartPos = { 0 }; //机器人在世界坐标系下的位置坐标
+DRIVEPOS drivePos = { 0 }; //机器人伺服电机的位置坐标
+int activeProg = 0; //是否激活程序，0：否，1：是
+int runProg = 0; //是否运行程序，0：否，1：是
+int hasReachSingularity = 0; //是否到达机器人的奇异点，0：否，1：是
+vector<pair<int, string>> infoReport; //信息报告的内容
+*/
+
+//机器人在轴关节坐标系下的位置坐标
+message AxisPos{
+	double a1 = 1;
+	double a2 = 2;
+	double a3 = 3;
+	double a4 = 4;
+	double a5 = 5;
+	double a6 = 6;
+}
+
+//机器人在世界坐标系下的位置坐标
+message CartPos{
+	double x = 1;
+	double y = 2;
+	double z = 3;
+	double a = 4;
+	double b = 5;
+	double c = 6;
+}
+
+//机器人在伺服编码器中的位置坐标
+message DrivePos{
+	double d1 = 1;
+	double d2 = 2;
+	double d3 = 3;
+	double d4 = 4;
+	double d5 = 5;
+	double d6 = 6;
+}
+
+//机器人运动参数
+message Dynamic{
+	double velAxis = 1;
+	double accAxis = 2;
+	double decAxis = 3;
+	double jerkAxis = 4;
+	double velPath = 5;
+	double accPath = 6;
+	double decPath = 7;
+	double jerkPath = 8;
+	double velOri = 9;
+	double accOri = 10;
+	double decOri  = 11;
+	double jerkOri = 12;
+}
+
+//信息报告的内容
+message InfoReport{
+	int32 level = 1; //信息的等级，0：通知，1：警告，2：错误，3：严重错误
+	string content = 2; //信息的内容
+}
+
+//客户端发送给服务端（示教器发送给控制器）的数据
+message Client2Server{
+    int32 emergeStop = 1; //机器人是否急停，0：未急停，1：急停
+	int32 enableState = 2; //机器人使能状态，0：未使能，1：使能
+	int32 operateMode = 3; //机器人操作模式，0：手动，1：自动
+	int32 activeState = 4; //程序的激活状态，0：未激活，1：激活
+	int32 runState = 5; //程序的运行状态，0：暂停，1：运行中
+	int32 step = 6; //程序的执行方式，0：连续，1：单步
+	int32 jog = 7; //手动示教时所选坐标系，0：轴关节坐标系，1：世界坐标系，2：工具手坐标系
+	int32 coordinate = 8; //手动示教时选中的坐标，0：未示教，1-6：第x个坐标
+	int32 upOrDown = 9; //手动示教时对选中坐标的增大或减小，0：减小，1：增大
+	int32 ovr = 10; //机器人的动态倍率参数
+	int32 progLine = 11; //程序执行到的行数
+	int32 transferZip = 12; //是否传输文件压缩包，0：不传输，1：传输
+	int32 zipSize = 13; //压缩包大小
+	string projName = 14; //主程序所在项目的名称
+	string varProgName = 15; //主程序名称
+}
+
+//服务端发送给客户端（控制器发送给示教器）的数据
+message Server2Client{
+	AxisPos axisPos = 1; //机器人在轴关节坐标系下的位置坐标
+	CartPos cartPos = 2; //机器人在世界坐标系下的位置坐标
+	DrivePos drivePos = 3; //机器人伺服电机的位置坐标
+	int32 activeProg = 4; //是否激活程序，0：否，1：是
+	int32 runProg = 5; //是否运行程序，0：否，1：是
+	int32 hasReachSingularity = 6; //是否到达机器人的奇异点，0：否，1：是
+	repeated InfoReport infoReport = 7; //信息报告的内容
+}

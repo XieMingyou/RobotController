@@ -1,0 +1,11 @@
+{
+str1:STRING="love"
+a:INTEGER=10
+ap2:AXISPOS=(a1=0,a2=0,a3=0,a4=0,a5=0,a6=0)
+t1:TOOL=(x=1,y=0,z=0,a=0,b=0,c=0)
+flt1:FLOAT=15.5
+intgr1:INTEGER=5
+dyn1:DYNAMIC=(velAxis=10,accAxis=0,decAxis=0,jerkAxis=0,velPath=0,accPath=0,decPath=0,jerkPath=0,velOri=0,accOri=0,decOri=0,jerkOri=0)
+cp1:CARTPOS=(x=11,y=0,z=0,a=0,b=0,c=0,mode=0)
+ap1:AXISPOS=(a1=1,a2=0,a3=0,a4=0,a5=0,a6=0)
+}

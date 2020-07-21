@@ -1,0 +1,307 @@
+﻿  controlThread.cpp
+  dataProto.pb.cc
+c:\users\xmy\desktop\project\robotcontroller\robotcontroller\google\protobuf\stubs\logging.h(102): warning C4251: “google::protobuf::internal::LogMessage::message_”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“google::protobuf::internal::LogMessage”的客户端使用
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.15.26726\include\xstring(4373): note: 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+c:\users\xmy\desktop\project\robotcontroller\robotcontroller\google\protobuf\io\coded_stream.h(1250): warning C4251: “google::protobuf::io::CodedOutputStream::default_serialization_deterministic_”: struct“std::atomic<bool>”需要有 dll 接口由 class“google::protobuf::io::CodedOutputStream”的客户端使用
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.15.26726\include\xxatomic(162): note: 参见“std::atomic<bool>”的声明
+c:\users\xmy\desktop\project\robotcontroller\robotcontroller\google\protobuf\arena_impl.h(287): warning C4251: “google::protobuf::internal::ArenaImpl::lifecycle_id_generator_”: struct“std::atomic<__int64>”需要有 dll 接口由 class“google::protobuf::internal::ArenaImpl”的客户端使用
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.15.26726\include\xxatomic(162): note: 参见“std::atomic<__int64>”的声明
+c:\users\xmy\desktop\project\robotcontroller\robotcontroller\google\protobuf\arena_impl.h(321): warning C4251: “google::protobuf::internal::ArenaImpl::threads_”: struct“std::atomic<google::protobuf::internal::ArenaImpl::SerialArena *>”需要有 dll 接口由 class“google::protobuf::internal::ArenaImpl”的客户端使用
+  c:\users\xmy\desktop\project\robotcontroller\robotcontroller\google\protobuf\arena_impl.h(320): note: 参见“std::atomic<google::protobuf::internal::ArenaImpl::SerialArena *>”的声明
+c:\users\xmy\desktop\project\robotcontroller\robotcontroller\google\protobuf\arena_impl.h(322): warning C4251: “google::protobuf::internal::ArenaImpl::hint_”: struct“std::atomic<google::protobuf::internal::ArenaImpl::SerialArena *>”需要有 dll 接口由 class“google::protobuf::internal::ArenaImpl”的客户端使用
+  c:\users\xmy\desktop\project\robotcontroller\robotcontroller\google\protobuf\arena_impl.h(320): note: 参见“std::atomic<google::protobuf::internal::ArenaImpl::SerialArena *>”的声明
+c:\users\xmy\desktop\project\robotcontroller\robotcontroller\google\protobuf\arena_impl.h(323): warning C4251: “google::protobuf::internal::ArenaImpl::space_allocated_”: struct“std::atomic<unsigned __int64>”需要有 dll 接口由 class“google::protobuf::internal::ArenaImpl”的客户端使用
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.15.26726\include\xxatomic(162): note: 参见“std::atomic<unsigned __int64>”的声明
+c:\users\xmy\desktop\project\robotcontroller\robotcontroller\google\protobuf\arena_impl.h(360): warning C4251: “google::protobuf::internal::ArenaImpl::options_”: struct“google::protobuf::internal::ArenaImpl::Options”需要有 dll 接口由 class“google::protobuf::internal::ArenaImpl”的客户端使用
+  c:\users\xmy\desktop\project\robotcontroller\robotcontroller\google\protobuf\arena_impl.h(68): note: 参见“google::protobuf::internal::ArenaImpl::Options”的声明
+c:\users\xmy\desktop\project\robotcontroller\robotcontroller\google\protobuf\implicit_weak_message.h(97): warning C4251: “google::protobuf::internal::ImplicitWeakMessage::data_”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“google::protobuf::internal::ImplicitWeakMessage”的客户端使用
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.15.26726\include\xstring(4373): note: 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+c:\users\xmy\desktop\project\robotcontroller\robotcontroller\google\protobuf\generated_message_util.h(179): warning C4251: “google::protobuf::internal::CachedSize::size_”: struct“std::atomic<int>”需要有 dll 接口由 class“google::protobuf::internal::CachedSize”的客户端使用
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.15.26726\include\xxatomic(162): note: 参见“std::atomic<int>”的声明
+c:\users\xmy\desktop\project\robotcontroller\robotcontroller\google\protobuf\metadata_lite.h(226): warning C4251: “google::protobuf::internal::LiteUnknownFieldSetter::buffer_”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“google::protobuf::internal::LiteUnknownFieldSetter”的客户端使用
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.15.26726\include\xstring(4373): note: 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+c:\users\xmy\desktop\project\robotcontroller\robotcontroller\google\protobuf\inlined_string_field.h(159): warning C4251: “google::protobuf::internal::InlinedStringField::value_”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“google::protobuf::internal::InlinedStringField”的客户端使用
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.15.26726\include\xstring(4373): note: 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+c:\users\xmy\desktop\project\robotcontroller\robotcontroller\google\protobuf\io\zero_copy_stream_impl_lite.h(243): warning C4251: “google::protobuf::io::CopyingInputStreamAdaptor::buffer_”: class“std::unique_ptr<google::protobuf::uint8 [],std::default_delete<_Ty>>”需要有 dll 接口由 class“google::protobuf::io::CopyingInputStreamAdaptor”的客户端使用
+          with
+          [
+              _Ty=google::protobuf::uint8 []
+          ]
+  c:\users\xmy\desktop\project\robotcontroller\robotcontroller\google\protobuf\io\zero_copy_stream_impl_lite.h(243): note: 参见“std::unique_ptr<google::protobuf::uint8 [],std::default_delete<_Ty>>”的声明
+          with
+          [
+              _Ty=google::protobuf::uint8 []
+          ]
+c:\users\xmy\desktop\project\robotcontroller\robotcontroller\google\protobuf\io\zero_copy_stream_impl_lite.h(332): warning C4251: “google::protobuf::io::CopyingOutputStreamAdaptor::buffer_”: class“std::unique_ptr<google::protobuf::uint8 [],std::default_delete<_Ty>>”需要有 dll 接口由 class“google::protobuf::io::CopyingOutputStreamAdaptor”的客户端使用
+          with
+          [
+              _Ty=google::protobuf::uint8 []
+          ]
+  c:\users\xmy\desktop\project\robotcontroller\robotcontroller\google\protobuf\io\zero_copy_stream_impl_lite.h(243): note: 参见“std::unique_ptr<google::protobuf::uint8 [],std::default_delete<_Ty>>”的声明
+          with
+          [
+              _Ty=google::protobuf::uint8 []
+          ]
+c:\users\xmy\desktop\project\robotcontroller\robotcontroller\google\protobuf\unknown_field_set.h(207): warning C4251: “google::protobuf::UnknownFieldSet::fields_”: class“std::vector<google::protobuf::UnknownField,std::allocator<_Ty>>”需要有 dll 接口由 class“google::protobuf::UnknownFieldSet”的客户端使用
+          with
+          [
+              _Ty=google::protobuf::UnknownField
+          ]
+  c:\users\xmy\desktop\project\robotcontroller\robotcontroller\google\protobuf\unknown_field_set.h(207): note: 参见“std::vector<google::protobuf::UnknownField,std::allocator<_Ty>>”的声明
+          with
+          [
+              _Ty=google::protobuf::UnknownField
+          ]
+c:\users\xmy\desktop\project\robotcontroller\robotcontroller\google\protobuf\stubs\mutex.h(107): warning C4251: “google::protobuf::internal::WrappedMutex::mu_”: class“std::mutex”需要有 dll 接口由 class“google::protobuf::internal::WrappedMutex”的客户端使用
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.15.26726\include\mutex(82): note: 参见“std::mutex”的声明
+c:\users\xmy\desktop\project\robotcontroller\robotcontroller\google\protobuf\descriptor.h(1864): warning C4251: “google::protobuf::DescriptorPool::tables_”: class“std::unique_ptr<google::protobuf::DescriptorPool::Tables,std::default_delete<_Ty>>”需要有 dll 接口由 class“google::protobuf::DescriptorPool”的客户端使用
+          with
+          [
+              _Ty=google::protobuf::DescriptorPool::Tables
+          ]
+  c:\users\xmy\desktop\project\robotcontroller\robotcontroller\google\protobuf\descriptor.h(1864): note: 参见“std::unique_ptr<google::protobuf::DescriptorPool::Tables,std::default_delete<_Ty>>”的声明
+          with
+          [
+              _Ty=google::protobuf::DescriptorPool::Tables
+          ]
+c:\users\xmy\desktop\project\robotcontroller\robotcontroller\google\protobuf\descriptor.h(1871): warning C4251: “google::protobuf::DescriptorPool::unused_import_track_files_”: class“std::set<std::string,std::less<_Kty>,std::allocator<_Ty>>”需要有 dll 接口由 class“google::protobuf::DescriptorPool”的客户端使用
+          with
+          [
+              _Kty=std::string,
+              _Ty=std::string
+          ]
+  c:\users\xmy\desktop\project\robotcontroller\robotcontroller\google\protobuf\descriptor.h(1871): note: 参见“std::set<std::string,std::less<_Kty>,std::allocator<_Ty>>”的声明
+          with
+          [
+              _Kty=std::string,
+              _Ty=std::string
+          ]
+c:\users\xmy\desktop\project\robotcontroller\robotcontroller\google\protobuf\extension_set.h(982): warning C4251: “google::protobuf::internal::RepeatedPrimitiveDefaults::default_repeated_field_int32_”: class“google::protobuf::RepeatedField<google::protobuf::int32>”需要有 dll 接口由 class“google::protobuf::internal::RepeatedPrimitiveDefaults”的客户端使用
+  c:\users\xmy\desktop\project\robotcontroller\robotcontroller\google\protobuf\repeated_field.h(2657): note: 参见“google::protobuf::RepeatedField<google::protobuf::int32>”的声明
+c:\users\xmy\desktop\project\robotcontroller\robotcontroller\google\protobuf\extension_set.h(983): warning C4251: “google::protobuf::internal::RepeatedPrimitiveDefaults::default_repeated_field_int64_”: class“google::protobuf::RepeatedField<google::protobuf::int64>”需要有 dll 接口由 class“google::protobuf::internal::RepeatedPrimitiveDefaults”的客户端使用
+  c:\users\xmy\desktop\project\robotcontroller\robotcontroller\google\protobuf\repeated_field.h(2659): note: 参见“google::protobuf::RepeatedField<google::protobuf::int64>”的声明
+c:\users\xmy\desktop\project\robotcontroller\robotcontroller\google\protobuf\extension_set.h(984): warning C4251: “google::protobuf::internal::RepeatedPrimitiveDefaults::default_repeated_field_uint32_”: class“google::protobuf::RepeatedField<google::protobuf::uint32>”需要有 dll 接口由 class“google::protobuf::internal::RepeatedPrimitiveDefaults”的客户端使用
+  c:\users\xmy\desktop\project\robotcontroller\robotcontroller\google\protobuf\repeated_field.h(2658): note: 参见“google::protobuf::RepeatedField<google::protobuf::uint32>”的声明
+c:\users\xmy\desktop\project\robotcontroller\robotcontroller\google\protobuf\extension_set.h(985): warning C4251: “google::protobuf::internal::RepeatedPrimitiveDefaults::default_repeated_field_uint64_”: class“google::protobuf::RepeatedField<google::protobuf::uint64>”需要有 dll 接口由 class“google::protobuf::internal::RepeatedPrimitiveDefaults”的客户端使用
+  c:\users\xmy\desktop\project\robotcontroller\robotcontroller\google\protobuf\repeated_field.h(2660): note: 参见“google::protobuf::RepeatedField<google::protobuf::uint64>”的声明
+c:\users\xmy\desktop\project\robotcontroller\robotcontroller\google\protobuf\extension_set.h(986): warning C4251: “google::protobuf::internal::RepeatedPrimitiveDefaults::default_repeated_field_double_”: class“google::protobuf::RepeatedField<double>”需要有 dll 接口由 class“google::protobuf::internal::RepeatedPrimitiveDefaults”的客户端使用
+  c:\users\xmy\desktop\project\robotcontroller\robotcontroller\google\protobuf\repeated_field.h(2662): note: 参见“google::protobuf::RepeatedField<double>”的声明
+c:\users\xmy\desktop\project\robotcontroller\robotcontroller\google\protobuf\extension_set.h(987): warning C4251: “google::protobuf::internal::RepeatedPrimitiveDefaults::default_repeated_field_float_”: class“google::protobuf::RepeatedField<float>”需要有 dll 接口由 class“google::protobuf::internal::RepeatedPrimitiveDefaults”的客户端使用
+  c:\users\xmy\desktop\project\robotcontroller\robotcontroller\google\protobuf\repeated_field.h(2661): note: 参见“google::protobuf::RepeatedField<float>”的声明
+c:\users\xmy\desktop\project\robotcontroller\robotcontroller\google\protobuf\extension_set.h(988): warning C4251: “google::protobuf::internal::RepeatedPrimitiveDefaults::default_repeated_field_bool_”: class“google::protobuf::RepeatedField<bool>”需要有 dll 接口由 class“google::protobuf::internal::RepeatedPrimitiveDefaults”的客户端使用
+  c:\users\xmy\desktop\project\robotcontroller\robotcontroller\google\protobuf\repeated_field.h(2656): note: 参见“google::protobuf::RepeatedField<bool>”的声明
+c:\users\xmy\desktop\project\robotcontroller\robotcontroller\dataproto.pb.cc(1719): warning C4244: “=”: 从“google::protobuf::uint64”转换到“google::protobuf::int32”，可能丢失数据
+c:\users\xmy\desktop\project\robotcontroller\robotcontroller\dataproto.pb.cc(1958): warning C4244: “=”: 从“google::protobuf::uint64”转换到“google::protobuf::int32”，可能丢失数据
+c:\users\xmy\desktop\project\robotcontroller\robotcontroller\dataproto.pb.cc(1965): warning C4244: “=”: 从“google::protobuf::uint64”转换到“google::protobuf::int32”，可能丢失数据
+c:\users\xmy\desktop\project\robotcontroller\robotcontroller\dataproto.pb.cc(1972): warning C4244: “=”: 从“google::protobuf::uint64”转换到“google::protobuf::int32”，可能丢失数据
+c:\users\xmy\desktop\project\robotcontroller\robotcontroller\dataproto.pb.cc(1979): warning C4244: “=”: 从“google::protobuf::uint64”转换到“google::protobuf::int32”，可能丢失数据
+c:\users\xmy\desktop\project\robotcontroller\robotcontroller\dataproto.pb.cc(1986): warning C4244: “=”: 从“google::protobuf::uint64”转换到“google::protobuf::int32”，可能丢失数据
+c:\users\xmy\desktop\project\robotcontroller\robotcontroller\dataproto.pb.cc(1993): warning C4244: “=”: 从“google::protobuf::uint64”转换到“google::protobuf::int32”，可能丢失数据
+c:\users\xmy\desktop\project\robotcontroller\robotcontroller\dataproto.pb.cc(2000): warning C4244: “=”: 从“google::protobuf::uint64”转换到“google::protobuf::int32”，可能丢失数据
+c:\users\xmy\desktop\project\robotcontroller\robotcontroller\dataproto.pb.cc(2007): warning C4244: “=”: 从“google::protobuf::uint64”转换到“google::protobuf::int32”，可能丢失数据
+c:\users\xmy\desktop\project\robotcontroller\robotcontroller\dataproto.pb.cc(2014): warning C4244: “=”: 从“google::protobuf::uint64”转换到“google::protobuf::int32”，可能丢失数据
+c:\users\xmy\desktop\project\robotcontroller\robotcontroller\dataproto.pb.cc(2021): warning C4244: “=”: 从“google::protobuf::uint64”转换到“google::protobuf::int32”，可能丢失数据
+c:\users\xmy\desktop\project\robotcontroller\robotcontroller\dataproto.pb.cc(2028): warning C4244: “=”: 从“google::protobuf::uint64”转换到“google::protobuf::int32”，可能丢失数据
+c:\users\xmy\desktop\project\robotcontroller\robotcontroller\dataproto.pb.cc(2035): warning C4244: “=”: 从“google::protobuf::uint64”转换到“google::protobuf::int32”，可能丢失数据
+c:\users\xmy\desktop\project\robotcontroller\robotcontroller\dataproto.pb.cc(2042): warning C4244: “=”: 从“google::protobuf::uint64”转换到“google::protobuf::int32”，可能丢失数据
+c:\users\xmy\desktop\project\robotcontroller\robotcontroller\dataproto.pb.cc(2577): warning C4244: “=”: 从“google::protobuf::uint64”转换到“google::protobuf::int32”，可能丢失数据
+c:\users\xmy\desktop\project\robotcontroller\robotcontroller\dataproto.pb.cc(2584): warning C4244: “=”: 从“google::protobuf::uint64”转换到“google::protobuf::int32”，可能丢失数据
+c:\users\xmy\desktop\project\robotcontroller\robotcontroller\dataproto.pb.cc(2591): warning C4244: “=”: 从“google::protobuf::uint64”转换到“google::protobuf::int32”，可能丢失数据
+  interpreter.cpp
+c:\users\xmy\desktop\project\robotcontroller\robotcontroller\interpreter.cpp(798): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+  IPMCMOTION.cpp
+  lexicon.cpp
+c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.15.26726\include\stdint.h(48): warning C4005: “INT8_MIN”: 宏重定义
+  c:\users\xmy\desktop\project\robotcontroller\robotcontroller\lexicon.cpp(59): note: 参见“INT8_MIN”的前一个定义
+c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.15.26726\include\stdint.h(49): warning C4005: “INT16_MIN”: 宏重定义
+  c:\users\xmy\desktop\project\robotcontroller\robotcontroller\lexicon.cpp(62): note: 参见“INT16_MIN”的前一个定义
+c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.15.26726\include\stdint.h(50): warning C4005: “INT32_MIN”: 宏重定义
+  c:\users\xmy\desktop\project\robotcontroller\robotcontroller\lexicon.cpp(65): note: 参见“INT32_MIN”的前一个定义
+c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.15.26726\include\stdint.h(52): warning C4005: “INT8_MAX”: 宏重定义
+  c:\users\xmy\desktop\project\robotcontroller\robotcontroller\lexicon.cpp(68): note: 参见“INT8_MAX”的前一个定义
+c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.15.26726\include\stdint.h(53): warning C4005: “INT16_MAX”: 宏重定义
+  c:\users\xmy\desktop\project\robotcontroller\robotcontroller\lexicon.cpp(71): note: 参见“INT16_MAX”的前一个定义
+c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.15.26726\include\stdint.h(54): warning C4005: “INT32_MAX”: 宏重定义
+  c:\users\xmy\desktop\project\robotcontroller\robotcontroller\lexicon.cpp(74): note: 参见“INT32_MAX”的前一个定义
+c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.15.26726\include\stdint.h(56): warning C4005: “UINT8_MAX”: 宏重定义
+  c:\users\xmy\desktop\project\robotcontroller\robotcontroller\lexicon.cpp(77): note: 参见“UINT8_MAX”的前一个定义
+c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.15.26726\include\stdint.h(57): warning C4005: “UINT16_MAX”: 宏重定义
+  c:\users\xmy\desktop\project\robotcontroller\robotcontroller\lexicon.cpp(80): note: 参见“UINT16_MAX”的前一个定义
+c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.15.26726\include\stdint.h(58): warning C4005: “UINT32_MAX”: 宏重定义
+  c:\users\xmy\desktop\project\robotcontroller\robotcontroller\lexicon.cpp(83): note: 参见“UINT32_MAX”的前一个定义
+  robotAlgorithm.cpp
+  robotConfig.cpp
+  robotController.cpp
+  robotInstruction.cpp
+c:\users\xmy\desktop\project\robotcontroller\robotcontroller\robotinstruction.cpp(20): warning C4244: “参数”: 从“double”转换到“long”，可能丢失数据
+c:\users\xmy\desktop\project\robotcontroller\robotcontroller\robotinstruction.cpp(66): warning C4838: 从“double”转换到“long”需要收缩转换
+c:\users\xmy\desktop\project\robotcontroller\robotcontroller\robotinstruction.cpp(65): warning C4244: “初始化”: 从“double”转换到“long”，可能丢失数据
+c:\users\xmy\desktop\project\robotcontroller\robotcontroller\robotinstruction.cpp(66): warning C4244: “初始化”: 从“double”转换到“long”，可能丢失数据
+c:\users\xmy\desktop\project\robotcontroller\robotcontroller\robotinstruction.cpp(135): warning C4838: 从“double”转换到“long”需要收缩转换
+c:\users\xmy\desktop\project\robotcontroller\robotcontroller\robotinstruction.cpp(134): warning C4244: “初始化”: 从“double”转换到“long”，可能丢失数据
+c:\users\xmy\desktop\project\robotcontroller\robotcontroller\robotinstruction.cpp(135): warning C4244: “初始化”: 从“double”转换到“long”，可能丢失数据
+c:\users\xmy\desktop\project\robotcontroller\robotcontroller\robotinstruction.cpp(756): warning C4244: “参数”: 从“double”转换到“long”，可能丢失数据
+c:\users\xmy\desktop\project\robotcontroller\robotcontroller\robotinstruction.cpp(917): warning C4244: “参数”: 从“double”转换到“DWORD”，可能丢失数据
+  robotStateThread.cpp
+  semantics.cpp
+c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.15.26726\include\stdint.h(48): warning C4005: “INT8_MIN”: 宏重定义
+  c:\users\xmy\desktop\project\robotcontroller\robotcontroller\lexicon.h(63): note: 参见“INT8_MIN”的前一个定义
+c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.15.26726\include\stdint.h(49): warning C4005: “INT16_MIN”: 宏重定义
+  c:\users\xmy\desktop\project\robotcontroller\robotcontroller\lexicon.h(66): note: 参见“INT16_MIN”的前一个定义
+c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.15.26726\include\stdint.h(50): warning C4005: “INT32_MIN”: 宏重定义
+  c:\users\xmy\desktop\project\robotcontroller\robotcontroller\lexicon.h(69): note: 参见“INT32_MIN”的前一个定义
+c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.15.26726\include\stdint.h(52): warning C4005: “INT8_MAX”: 宏重定义
+  c:\users\xmy\desktop\project\robotcontroller\robotcontroller\lexicon.h(72): note: 参见“INT8_MAX”的前一个定义
+c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.15.26726\include\stdint.h(53): warning C4005: “INT16_MAX”: 宏重定义
+  c:\users\xmy\desktop\project\robotcontroller\robotcontroller\lexicon.h(75): note: 参见“INT16_MAX”的前一个定义
+c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.15.26726\include\stdint.h(54): warning C4005: “INT32_MAX”: 宏重定义
+  c:\users\xmy\desktop\project\robotcontroller\robotcontroller\lexicon.h(78): note: 参见“INT32_MAX”的前一个定义
+c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.15.26726\include\stdint.h(56): warning C4005: “UINT8_MAX”: 宏重定义
+  c:\users\xmy\desktop\project\robotcontroller\robotcontroller\lexicon.h(81): note: 参见“UINT8_MAX”的前一个定义
+c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.15.26726\include\stdint.h(57): warning C4005: “UINT16_MAX”: 宏重定义
+  c:\users\xmy\desktop\project\robotcontroller\robotcontroller\lexicon.h(84): note: 参见“UINT16_MAX”的前一个定义
+c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.15.26726\include\stdint.h(58): warning C4005: “UINT32_MAX”: 宏重定义
+  c:\users\xmy\desktop\project\robotcontroller\robotcontroller\lexicon.h(87): note: 参见“UINT32_MAX”的前一个定义
+c:\users\xmy\desktop\project\robotcontroller\robotcontroller\semantics.cpp(838): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+c:\users\xmy\desktop\project\robotcontroller\robotcontroller\semantics.cpp(1164): warning C4805: “==”: 在操作中将类型“int”与类型“bool”混合不安全
+c:\users\xmy\desktop\project\robotcontroller\robotcontroller\semantics.cpp(1175): warning C4805: “!=”: 在操作中将类型“int”与类型“bool”混合不安全
+c:\users\xmy\desktop\project\robotcontroller\robotcontroller\semantics.cpp(1186): warning C4804: “>”: 在操作中使用类型“bool”不安全
+c:\users\xmy\desktop\project\robotcontroller\robotcontroller\semantics.cpp(1197): warning C4804: “>=”: 在操作中使用类型“bool”不安全
+c:\users\xmy\desktop\project\robotcontroller\robotcontroller\semantics.cpp(1208): warning C4804: “<”: 在操作中使用类型“bool”不安全
+c:\users\xmy\desktop\project\robotcontroller\robotcontroller\semantics.cpp(1219): warning C4804: “<=”: 在操作中使用类型“bool”不安全
+c:\users\xmy\desktop\project\robotcontroller\robotcontroller\semantics.cpp(1434): warning C4805: “==”: 在操作中将类型“double”与类型“bool”混合不安全
+c:\users\xmy\desktop\project\robotcontroller\robotcontroller\semantics.cpp(1445): warning C4805: “!=”: 在操作中将类型“double”与类型“bool”混合不安全
+c:\users\xmy\desktop\project\robotcontroller\robotcontroller\semantics.cpp(1456): warning C4804: “>”: 在操作中使用类型“bool”不安全
+c:\users\xmy\desktop\project\robotcontroller\robotcontroller\semantics.cpp(1467): warning C4804: “>=”: 在操作中使用类型“bool”不安全
+c:\users\xmy\desktop\project\robotcontroller\robotcontroller\semantics.cpp(1478): warning C4804: “<”: 在操作中使用类型“bool”不安全
+c:\users\xmy\desktop\project\robotcontroller\robotcontroller\semantics.cpp(1489): warning C4804: “<=”: 在操作中使用类型“bool”不安全
+c:\users\xmy\desktop\project\robotcontroller\robotcontroller\semantics.cpp(1524): warning C4805: “==”: 在操作中将类型“bool”与类型“int”混合不安全
+c:\users\xmy\desktop\project\robotcontroller\robotcontroller\semantics.cpp(1535): warning C4805: “!=”: 在操作中将类型“bool”与类型“int”混合不安全
+c:\users\xmy\desktop\project\robotcontroller\robotcontroller\semantics.cpp(1546): warning C4804: “>”: 在操作中使用类型“bool”不安全
+c:\users\xmy\desktop\project\robotcontroller\robotcontroller\semantics.cpp(1557): warning C4804: “>=”: 在操作中使用类型“bool”不安全
+c:\users\xmy\desktop\project\robotcontroller\robotcontroller\semantics.cpp(1568): warning C4804: “<”: 在操作中使用类型“bool”不安全
+c:\users\xmy\desktop\project\robotcontroller\robotcontroller\semantics.cpp(1579): warning C4804: “<=”: 在操作中使用类型“bool”不安全
+c:\users\xmy\desktop\project\robotcontroller\robotcontroller\semantics.cpp(1614): warning C4805: “==”: 在操作中将类型“bool”与类型“double”混合不安全
+c:\users\xmy\desktop\project\robotcontroller\robotcontroller\semantics.cpp(1625): warning C4805: “!=”: 在操作中将类型“bool”与类型“double”混合不安全
+c:\users\xmy\desktop\project\robotcontroller\robotcontroller\semantics.cpp(1636): warning C4804: “>”: 在操作中使用类型“bool”不安全
+c:\users\xmy\desktop\project\robotcontroller\robotcontroller\semantics.cpp(1647): warning C4804: “>=”: 在操作中使用类型“bool”不安全
+c:\users\xmy\desktop\project\robotcontroller\robotcontroller\semantics.cpp(1658): warning C4804: “<”: 在操作中使用类型“bool”不安全
+c:\users\xmy\desktop\project\robotcontroller\robotcontroller\semantics.cpp(1669): warning C4804: “<=”: 在操作中使用类型“bool”不安全
+c:\users\xmy\desktop\project\robotcontroller\robotcontroller\semantics.cpp(1806): warning C4804: “-”: 在操作中使用类型“bool”不安全
+  syntax.cpp
+c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.15.26726\include\stdint.h(48): warning C4005: “INT8_MIN”: 宏重定义
+  c:\users\xmy\desktop\project\robotcontroller\robotcontroller\lexicon.h(63): note: 参见“INT8_MIN”的前一个定义
+c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.15.26726\include\stdint.h(49): warning C4005: “INT16_MIN”: 宏重定义
+  c:\users\xmy\desktop\project\robotcontroller\robotcontroller\lexicon.h(66): note: 参见“INT16_MIN”的前一个定义
+c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.15.26726\include\stdint.h(50): warning C4005: “INT32_MIN”: 宏重定义
+  c:\users\xmy\desktop\project\robotcontroller\robotcontroller\lexicon.h(69): note: 参见“INT32_MIN”的前一个定义
+c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.15.26726\include\stdint.h(52): warning C4005: “INT8_MAX”: 宏重定义
+  c:\users\xmy\desktop\project\robotcontroller\robotcontroller\lexicon.h(72): note: 参见“INT8_MAX”的前一个定义
+c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.15.26726\include\stdint.h(53): warning C4005: “INT16_MAX”: 宏重定义
+  c:\users\xmy\desktop\project\robotcontroller\robotcontroller\lexicon.h(75): note: 参见“INT16_MAX”的前一个定义
+c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.15.26726\include\stdint.h(54): warning C4005: “INT32_MAX”: 宏重定义
+  c:\users\xmy\desktop\project\robotcontroller\robotcontroller\lexicon.h(78): note: 参见“INT32_MAX”的前一个定义
+c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.15.26726\include\stdint.h(56): warning C4005: “UINT8_MAX”: 宏重定义
+  c:\users\xmy\desktop\project\robotcontroller\robotcontroller\lexicon.h(81): note: 参见“UINT8_MAX”的前一个定义
+c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.15.26726\include\stdint.h(57): warning C4005: “UINT16_MAX”: 宏重定义
+  c:\users\xmy\desktop\project\robotcontroller\robotcontroller\lexicon.h(84): note: 参见“UINT16_MAX”的前一个定义
+c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.15.26726\include\stdint.h(58): warning C4005: “UINT32_MAX”: 宏重定义
+  c:\users\xmy\desktop\project\robotcontroller\robotcontroller\lexicon.h(87): note: 参见“UINT32_MAX”的前一个定义
+  tinystr.cpp
+  tinyxml.cpp
+  tinyxmlerror.cpp
+  tinyxmlparser.cpp
+  transferThread.cpp
+c:\users\xmy\desktop\project\robotcontroller\robotcontroller\google\protobuf\stubs\logging.h(102): warning C4251: “google::protobuf::internal::LogMessage::message_”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“google::protobuf::internal::LogMessage”的客户端使用
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.15.26726\include\xstring(4373): note: 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+c:\users\xmy\desktop\project\robotcontroller\robotcontroller\google\protobuf\io\coded_stream.h(1250): warning C4251: “google::protobuf::io::CodedOutputStream::default_serialization_deterministic_”: struct“std::atomic<bool>”需要有 dll 接口由 class“google::protobuf::io::CodedOutputStream”的客户端使用
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.15.26726\include\xxatomic(162): note: 参见“std::atomic<bool>”的声明
+c:\users\xmy\desktop\project\robotcontroller\robotcontroller\google\protobuf\arena_impl.h(287): warning C4251: “google::protobuf::internal::ArenaImpl::lifecycle_id_generator_”: struct“std::atomic<__int64>”需要有 dll 接口由 class“google::protobuf::internal::ArenaImpl”的客户端使用
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.15.26726\include\xxatomic(162): note: 参见“std::atomic<__int64>”的声明
+c:\users\xmy\desktop\project\robotcontroller\robotcontroller\google\protobuf\arena_impl.h(321): warning C4251: “google::protobuf::internal::ArenaImpl::threads_”: struct“std::atomic<google::protobuf::internal::ArenaImpl::SerialArena *>”需要有 dll 接口由 class“google::protobuf::internal::ArenaImpl”的客户端使用
+  c:\users\xmy\desktop\project\robotcontroller\robotcontroller\google\protobuf\arena_impl.h(320): note: 参见“std::atomic<google::protobuf::internal::ArenaImpl::SerialArena *>”的声明
+c:\users\xmy\desktop\project\robotcontroller\robotcontroller\google\protobuf\arena_impl.h(322): warning C4251: “google::protobuf::internal::ArenaImpl::hint_”: struct“std::atomic<google::protobuf::internal::ArenaImpl::SerialArena *>”需要有 dll 接口由 class“google::protobuf::internal::ArenaImpl”的客户端使用
+  c:\users\xmy\desktop\project\robotcontroller\robotcontroller\google\protobuf\arena_impl.h(320): note: 参见“std::atomic<google::protobuf::internal::ArenaImpl::SerialArena *>”的声明
+c:\users\xmy\desktop\project\robotcontroller\robotcontroller\google\protobuf\arena_impl.h(323): warning C4251: “google::protobuf::internal::ArenaImpl::space_allocated_”: struct“std::atomic<unsigned __int64>”需要有 dll 接口由 class“google::protobuf::internal::ArenaImpl”的客户端使用
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.15.26726\include\xxatomic(162): note: 参见“std::atomic<unsigned __int64>”的声明
+c:\users\xmy\desktop\project\robotcontroller\robotcontroller\google\protobuf\arena_impl.h(360): warning C4251: “google::protobuf::internal::ArenaImpl::options_”: struct“google::protobuf::internal::ArenaImpl::Options”需要有 dll 接口由 class“google::protobuf::internal::ArenaImpl”的客户端使用
+  c:\users\xmy\desktop\project\robotcontroller\robotcontroller\google\protobuf\arena_impl.h(68): note: 参见“google::protobuf::internal::ArenaImpl::Options”的声明
+c:\users\xmy\desktop\project\robotcontroller\robotcontroller\google\protobuf\implicit_weak_message.h(97): warning C4251: “google::protobuf::internal::ImplicitWeakMessage::data_”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“google::protobuf::internal::ImplicitWeakMessage”的客户端使用
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.15.26726\include\xstring(4373): note: 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+c:\users\xmy\desktop\project\robotcontroller\robotcontroller\google\protobuf\generated_message_util.h(179): warning C4251: “google::protobuf::internal::CachedSize::size_”: struct“std::atomic<int>”需要有 dll 接口由 class“google::protobuf::internal::CachedSize”的客户端使用
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.15.26726\include\xxatomic(162): note: 参见“std::atomic<int>”的声明
+c:\users\xmy\desktop\project\robotcontroller\robotcontroller\google\protobuf\metadata_lite.h(226): warning C4251: “google::protobuf::internal::LiteUnknownFieldSetter::buffer_”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“google::protobuf::internal::LiteUnknownFieldSetter”的客户端使用
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.15.26726\include\xstring(4373): note: 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+c:\users\xmy\desktop\project\robotcontroller\robotcontroller\google\protobuf\inlined_string_field.h(159): warning C4251: “google::protobuf::internal::InlinedStringField::value_”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“google::protobuf::internal::InlinedStringField”的客户端使用
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.15.26726\include\xstring(4373): note: 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+c:\users\xmy\desktop\project\robotcontroller\robotcontroller\google\protobuf\io\zero_copy_stream_impl_lite.h(243): warning C4251: “google::protobuf::io::CopyingInputStreamAdaptor::buffer_”: class“std::unique_ptr<google::protobuf::uint8 [],std::default_delete<_Ty>>”需要有 dll 接口由 class“google::protobuf::io::CopyingInputStreamAdaptor”的客户端使用
+          with
+          [
+              _Ty=google::protobuf::uint8 []
+          ]
+  c:\users\xmy\desktop\project\robotcontroller\robotcontroller\google\protobuf\io\zero_copy_stream_impl_lite.h(243): note: 参见“std::unique_ptr<google::protobuf::uint8 [],std::default_delete<_Ty>>”的声明
+          with
+          [
+              _Ty=google::protobuf::uint8 []
+          ]
+c:\users\xmy\desktop\project\robotcontroller\robotcontroller\google\protobuf\io\zero_copy_stream_impl_lite.h(332): warning C4251: “google::protobuf::io::CopyingOutputStreamAdaptor::buffer_”: class“std::unique_ptr<google::protobuf::uint8 [],std::default_delete<_Ty>>”需要有 dll 接口由 class“google::protobuf::io::CopyingOutputStreamAdaptor”的客户端使用
+          with
+          [
+              _Ty=google::protobuf::uint8 []
+          ]
+  c:\users\xmy\desktop\project\robotcontroller\robotcontroller\google\protobuf\io\zero_copy_stream_impl_lite.h(243): note: 参见“std::unique_ptr<google::protobuf::uint8 [],std::default_delete<_Ty>>”的声明
+          with
+          [
+              _Ty=google::protobuf::uint8 []
+          ]
+c:\users\xmy\desktop\project\robotcontroller\robotcontroller\google\protobuf\unknown_field_set.h(207): warning C4251: “google::protobuf::UnknownFieldSet::fields_”: class“std::vector<google::protobuf::UnknownField,std::allocator<_Ty>>”需要有 dll 接口由 class“google::protobuf::UnknownFieldSet”的客户端使用
+          with
+          [
+              _Ty=google::protobuf::UnknownField
+          ]
+  c:\users\xmy\desktop\project\robotcontroller\robotcontroller\google\protobuf\unknown_field_set.h(207): note: 参见“std::vector<google::protobuf::UnknownField,std::allocator<_Ty>>”的声明
+          with
+          [
+              _Ty=google::protobuf::UnknownField
+          ]
+c:\users\xmy\desktop\project\robotcontroller\robotcontroller\google\protobuf\stubs\mutex.h(107): warning C4251: “google::protobuf::internal::WrappedMutex::mu_”: class“std::mutex”需要有 dll 接口由 class“google::protobuf::internal::WrappedMutex”的客户端使用
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.15.26726\include\mutex(82): note: 参见“std::mutex”的声明
+c:\users\xmy\desktop\project\robotcontroller\robotcontroller\google\protobuf\descriptor.h(1864): warning C4251: “google::protobuf::DescriptorPool::tables_”: class“std::unique_ptr<google::protobuf::DescriptorPool::Tables,std::default_delete<_Ty>>”需要有 dll 接口由 class“google::protobuf::DescriptorPool”的客户端使用
+          with
+          [
+              _Ty=google::protobuf::DescriptorPool::Tables
+          ]
+  c:\users\xmy\desktop\project\robotcontroller\robotcontroller\google\protobuf\descriptor.h(1864): note: 参见“std::unique_ptr<google::protobuf::DescriptorPool::Tables,std::default_delete<_Ty>>”的声明
+          with
+          [
+              _Ty=google::protobuf::DescriptorPool::Tables
+          ]
+c:\users\xmy\desktop\project\robotcontroller\robotcontroller\google\protobuf\descriptor.h(1871): warning C4251: “google::protobuf::DescriptorPool::unused_import_track_files_”: class“std::set<std::string,std::less<_Kty>,std::allocator<_Ty>>”需要有 dll 接口由 class“google::protobuf::DescriptorPool”的客户端使用
+          with
+          [
+              _Kty=std::string,
+              _Ty=std::string
+          ]
+  c:\users\xmy\desktop\project\robotcontroller\robotcontroller\google\protobuf\descriptor.h(1871): note: 参见“std::set<std::string,std::less<_Kty>,std::allocator<_Ty>>”的声明
+          with
+          [
+              _Kty=std::string,
+              _Ty=std::string
+          ]
+c:\users\xmy\desktop\project\robotcontroller\robotcontroller\google\protobuf\extension_set.h(982): warning C4251: “google::protobuf::internal::RepeatedPrimitiveDefaults::default_repeated_field_int32_”: class“google::protobuf::RepeatedField<google::protobuf::int32>”需要有 dll 接口由 class“google::protobuf::internal::RepeatedPrimitiveDefaults”的客户端使用
+  c:\users\xmy\desktop\project\robotcontroller\robotcontroller\google\protobuf\repeated_field.h(2657): note: 参见“google::protobuf::RepeatedField<google::protobuf::int32>”的声明
+c:\users\xmy\desktop\project\robotcontroller\robotcontroller\google\protobuf\extension_set.h(983): warning C4251: “google::protobuf::internal::RepeatedPrimitiveDefaults::default_repeated_field_int64_”: class“google::protobuf::RepeatedField<google::protobuf::int64>”需要有 dll 接口由 class“google::protobuf::internal::RepeatedPrimitiveDefaults”的客户端使用
+  c:\users\xmy\desktop\project\robotcontroller\robotcontroller\google\protobuf\repeated_field.h(2659): note: 参见“google::protobuf::RepeatedField<google::protobuf::int64>”的声明
+c:\users\xmy\desktop\project\robotcontroller\robotcontroller\google\protobuf\extension_set.h(984): warning C4251: “google::protobuf::internal::RepeatedPrimitiveDefaults::default_repeated_field_uint32_”: class“google::protobuf::RepeatedField<google::protobuf::uint32>”需要有 dll 接口由 class“google::protobuf::internal::RepeatedPrimitiveDefaults”的客户端使用
+  c:\users\xmy\desktop\project\robotcontroller\robotcontroller\google\protobuf\repeated_field.h(2658): note: 参见“google::protobuf::RepeatedField<google::protobuf::uint32>”的声明
+c:\users\xmy\desktop\project\robotcontroller\robotcontroller\google\protobuf\extension_set.h(985): warning C4251: “google::protobuf::internal::RepeatedPrimitiveDefaults::default_repeated_field_uint64_”: class“google::protobuf::RepeatedField<google::protobuf::uint64>”需要有 dll 接口由 class“google::protobuf::internal::RepeatedPrimitiveDefaults”的客户端使用
+  c:\users\xmy\desktop\project\robotcontroller\robotcontroller\google\protobuf\repeated_field.h(2660): note: 参见“google::protobuf::RepeatedField<google::protobuf::uint64>”的声明
+c:\users\xmy\desktop\project\robotcontroller\robotcontroller\google\protobuf\extension_set.h(986): warning C4251: “google::protobuf::internal::RepeatedPrimitiveDefaults::default_repeated_field_double_”: class“google::protobuf::RepeatedField<double>”需要有 dll 接口由 class“google::protobuf::internal::RepeatedPrimitiveDefaults”的客户端使用
+  c:\users\xmy\desktop\project\robotcontroller\robotcontroller\google\protobuf\repeated_field.h(2662): note: 参见“google::protobuf::RepeatedField<double>”的声明
+c:\users\xmy\desktop\project\robotcontroller\robotcontroller\google\protobuf\extension_set.h(987): warning C4251: “google::protobuf::internal::RepeatedPrimitiveDefaults::default_repeated_field_float_”: class“google::protobuf::RepeatedField<float>”需要有 dll 接口由 class“google::protobuf::internal::RepeatedPrimitiveDefaults”的客户端使用
+  c:\users\xmy\desktop\project\robotcontroller\robotcontroller\google\protobuf\repeated_field.h(2661): note: 参见“google::protobuf::RepeatedField<float>”的声明
+c:\users\xmy\desktop\project\robotcontroller\robotcontroller\google\protobuf\extension_set.h(988): warning C4251: “google::protobuf::internal::RepeatedPrimitiveDefaults::default_repeated_field_bool_”: class“google::protobuf::RepeatedField<bool>”需要有 dll 接口由 class“google::protobuf::internal::RepeatedPrimitiveDefaults”的客户端使用
+  c:\users\xmy\desktop\project\robotcontroller\robotcontroller\google\protobuf\repeated_field.h(2656): note: 参见“google::protobuf::RepeatedField<bool>”的声明
+c:\users\xmy\desktop\project\robotcontroller\robotcontroller\transferthread.cpp(142): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  正在生成代码...
+  RobotController.vcxproj -> C:\Users\XMY\Desktop\project\RobotController\x64\Debug\RobotController.exe

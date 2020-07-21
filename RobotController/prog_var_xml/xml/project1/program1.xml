@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!--This is Robot_Variable Information-->
+<config_information>
+    <变量节点 Name="int2" Type="INTEGER" Range="program1[project1]">
+        <value Parameter="整数数值">0</value>
+    </变量节点>
+</config_information>

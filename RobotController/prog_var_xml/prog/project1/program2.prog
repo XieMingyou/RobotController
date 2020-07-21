@@ -1,0 +1,9 @@
+{
+PTP(ap1)
+Dyn(dyn1)
+GOTO  LABEL
+Lin(cp1)
+LABEL: 
+Circ(ap1,cp1)
+RETURN
+}
